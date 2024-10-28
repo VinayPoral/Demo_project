@@ -249,18 +249,7 @@ function fetchData(endpoint) {
 fetchData('/api/devops-data');
 
 
-<div class="profile-settings">
-  <label><input type="checkbox" id="showDeployments" checked> Deployments</label>
-  <label><input type="checkbox" id="showCpuUsage" checked> CPU Usage</label>
-  <button onclick="applySettings()">Save Settings</button>
-</div>
 
-<script>
-  function applySettings() {
-    document.getElementById('deployments').style.display = document.getElementById('showDeployments').checked ? 'block' : 'none';
-    document.getElementById('cpuUsage').style.display = document.getElementById('showCpuUsage').checked ? 'block' : 'none';
-  }
-</script>
 
 
 </body>
